@@ -21,7 +21,7 @@ def dijkstra(graph, start):
         for vertex in distances:
             if vertex not in visited and distances[vertex] < min_dist:
                 min_dist = distances[vertex]
-                current = vertex
+                current = vertexЗ
 
         if current is None:
             break
